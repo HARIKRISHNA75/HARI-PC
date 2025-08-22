@@ -1,0 +1,55 @@
+
+.square {
+    height: 50px;
+    width:100px;
+    background-color: blue;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgb(70, 232, 11);
+}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.parallelogram {
+    height:0px;
+    width:100px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid rgba(255, 0, 0, 0.94);
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid rgb(242, 0, 255);
+}
+.rhombus {
+    height: 100px;
+    width: 100px;
+    border-bottom: 100px solid rgb(255, 0, 115);
+    border-radius: 3px solid;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent
+}
+.ellispe {
+    height: 50px;
+    width: 100px;
+   border-radius: 100%;
+    background-color: darkgreen;
+}
+
+.semi {
+    height: 25px;
+    width: 65px;
+    border-radius: 
+    background-color: deeppink;
+}

@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    background: rgb(40, 46, 208);
+    justify-content: space-around;
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.bar ul li a:hover {
+    background-color: blue;
+}
+.bar ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.bar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img {
+    height: 50px;
+    width: auto;
+    line-height: 2;
+}
+.logo {
+    height: 50px;
+    width: auto;
+}
+.square {
+    height: 30px;
+    width:100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4, 4, 233);
+}
+.rectangle {
+    height: 30px;
+    width:400px;
+    background-color: white;
+    align-items: center;
+    color: gray;
+}
+#search {
+    height: 30px;
+    width: 400px;
+    justify-content: center;
+    display: flex;
+}
+.busy {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 205, 215);
+    color: aliceblue;
+    height: 100px;
+}
+.thank img {
+    height: 400px;
+    width: 100%;
+}
+.siddu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+}
+.siddu img {
+    height: 70px;
+    width: auto;
+}
+.siddu img:hover {
+    height: 80px;
+    width: auto;
+}
+.siddu h4 {
+    height: 20px;
+    width: auto;
+}
+.phone {
+    display: flex;
+    background-color: rgba(154, 194, 227, 0.256);
+    justify-content: space-around;
+    height: 200px
+}
+.number {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center ;
+    height: auto;
+    width: 200px;
+    
+}
+.number img {
+    height: 100px;
+    width: 150px;
+    margin-top: 10px;
+    background-color: blue;
+}
+.number img:hover {
+    height: 110px;
+    width: 165px;
+    margin-top: 10px;
+    background-color: blue;
+}
+.number h3 {
+    color: green;
+}

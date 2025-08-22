@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(../IMG/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.vs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 150px 150px 250px;
+}
+.form-group{
+    height: 360px;
+    width: 200px;
+    padding: 20px 50px 20px 50px;
+    background-image: url(../IMG/copy.avif);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.regi label {
+    color: rgb(255, 0, 0);
+    padding: 10px 30px 1opx 30px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+}
+.regi input[type='text'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(19, 215, 61);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='Email'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(53, 243, 0);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='Password'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(13, 239, 13);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='tel'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(39, 240, 13);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='date'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(107, 110, 107);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='gender'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(10, 238, 45);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(113, 223, 235),rgb(215, 82, 232));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='submit'] {
+    /* background: none; */
+    /* border: none; */
+    border-bottom: 1px solid;
+    color: rgb(242, 246, 242);
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(50, 107, 223),rgba(70, 221, 238, 0.842));
+    padding: 5px 20px 5px 20px;
+}
+.regi input[type='submit'] {
+    margin-left: 50px;
+    height: 25px;
+    width: 80px;
+}
+.vs input {
+    color: purple;
+}

@@ -1,0 +1,160 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>display: flex</title>
+    <link rel="stylesheet" href="styles.css?v=20220216.2">
+</head>
+<body>
+    <div class="page-heading">Test CSS Flexbox Rules</div>
+    <div class="child-count-container"></div>
+    <div class="flex-parent">
+    </div>
+    <div class="controls-container">
+        <div class="flex-attribute-control flex-direction">
+            <div class="control-heading">
+                flex-direction
+            </div>
+            <div class="control-explanation">
+                <div class="control-link"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction" target="_blank">Details</a></div>
+            </div>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="flex-direction" value="row" checked>
+                    row (default)
+                </label>
+                <label>
+                    <input type="radio" name="flex-direction" value="row-reverse">
+                    row-reverse
+                </label>
+                <label>
+                    <input type="radio" name="flex-direction" value="column">
+                    column
+                </label>
+                <label>
+                    <input type="radio" name="flex-direction" value="column-reverse">
+                    column-reverse
+                </label>
+            </div>
+        </div>
+        <div class="flex-attribute-control flex-wrap">
+            <div class="control-heading">flex-wrap</div>
+            <div class="control-explanation">
+                whether items wrap to the next <span class="if-row">row</span><span class="if-column">column</span> (only applies if combined <span class="if-row">width</span><span class="if-column">height</span> of items is greater than container's)
+                <div class="control-link"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap" target="_blank">Details</a></div>
+            </div>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="flex-wrap" value="nowrap" checked>
+                    nowrap (default)
+                </label>
+                <label>
+                    <input type="radio" name="flex-wrap" value="wrap">
+                    wrap
+                </label>
+                <label>
+                    <input type="radio" name="flex-wrap" value="wrap-reverse">
+                    wrap-reverse
+                </label>
+            </div>
+        </div>
+        <div class="flex-attribute-control justify-content">
+            <div class="control-heading">justify-content</div>
+            <div class="control-explanation">
+                alignment along the <span class="if-row">x</span><span class="if-column">y</span> axis
+                <div class="Details"</div>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="justify-content" value="flex-start" checked>
+                    flex-start (default)
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="flex-end">
+                    flex-end
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="center">
+                    center
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-around">
+                    space-around
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-evenly">
+                    space-evenly
+                </label>
+                <label>
+                    <input type="radio" name="justify-content" value="space-between">
+                    space-between
+                </label>
+            </div>
+        </div>
+        <div class="flex-attribute-control align-items">
+            <div class="control-heading">align-items</div>
+            <div class="control-explanation">
+                alignment along the <span class="if-row">y</span><span class="if-column">x</span> axis
+                <div class="control-link"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank">Details</a></div>
+            </div>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="align-items" value="stretch" checked>
+                    stretch (default)
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="baseline">
+                    baseline
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="center">
+                    center
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="flex-start">
+                    flex-start
+                </label>
+                <label>
+                    <input type="radio" name="align-items" value="flex-end">
+                    flex-end
+                </label>
+            </div>
+        </div>
+        <div class="flex-attribute-control align-content">
+            <div class="control-heading">align-content</div>
+            <div class="control-explanation">
+                only applies if there is more than one <span class="if-row">row</span><span class="if-column">column</span> of items
+                <div class="control-link"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-content" target="_blank">Details</a></div>
+            </div>
+            <div class="control-group">
+                <label>
+                    <input type="radio" name="align-content" value="stretch" checked>
+                    stretch (default)
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="center">
+                    center
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="flex-start">
+                    flex-start
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="flex-end">
+                    flex-end
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="space-around">
+                    space-around
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="space-evenly">
+                    space-evenly
+                </label>
+                <label>
+                    <input type="radio" name="align-content" value="space-between">
+                    space-between
+                </label>
+            </div>
+        </div>
+    </div>
+   </body>
+</html>

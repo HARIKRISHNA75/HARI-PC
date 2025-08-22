@@ -1,0 +1,103 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    color:rgb(247, 0, 255);
+}
+
+.bar ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px 15px 10px 15px;
+    line-height: 2;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1F1F1F;
+    overflow: hidden;
+}
+.bar {
+    text-decoration: none;
+    color: rgb(204, 0, 255);
+    font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.logo img {
+    height: 50px;
+    width: 150px;
+}
+.header div {
+    justify-content: space-between;
+}
+.intro {
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center ;
+    align-items: center;
+    background: url('../IMG/TEC.webp') ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heading {
+    /* display: none; */
+    color: aliceblue;
+}
+
+
+.flex {
+    display: none;
+}
+
+.img {
+    float: left;
+}
+.data h1{
+    text-align: center; 
+    color: rgb(255, 4, 0);
+}
+.data {
+    align-items: center;
+    justify-items: center;
+    padding: 120px 20px;
+    color: rgb(15, 232, 30);
+    background-color: black;
+}
+.jan h1 {
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+    background-color: blue;
+    
+}
+.net {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    overflow: hidden;
+}
+
+.netname {
+    justify-content: space-around;
+    margin: 10px 30px 10px 0px;
+    align-content: space-between;
+    display: flex;
+    background-color: indigo;
+    width: 100%;
+}
+.insta {
+    background-color: #0ae820;
+    color: rgb(247, 0, 255);
+    display: block;
+
+}
+.insta img {
+    display: block;
+    margin: auto;
+    padding: auto;
+    border-radius: 200px;
+}

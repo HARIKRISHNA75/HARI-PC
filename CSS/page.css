@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page {
+    width: 360px;
+    height: 400px;
+    background: blue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border-radius: 30px;
+    
+}
